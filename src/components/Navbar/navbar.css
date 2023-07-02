@@ -1,0 +1,85 @@
+.T3_Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2 rem 6 rem;
+}
+.T3_Navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.T3_Navbar-links_logo {
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+.T3_Navbar-links_logo img {
+  width: 400px;
+  height: 80.02px;
+}
+.T3_Navbar-links-container{
+    display: flex;
+    flex-direction: row;
+}
+.T3_Navbar-sign{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.T3_Navbar-links-container p,
+.T3_Navbar-sign p, 
+.T3_Navbar-menu-container p {
+    color: black;
+    font-family: var(--font-family);
+    font-weight: 500;
+    line-height: 25px;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+
+}
+
+.T3_Navbar-sign button,
+.T3_Navbar-menu-container button {
+    width: 115px;
+    height: 30px;
+    color: black;
+    background: #f89903;
+    border-radius: 6px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-weight: 500;
+    line-height: 25px;
+    font-size: 16px;
+}
+.T3_Navbar-menu {
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+.T3_Navbar-menu svg{
+    cursor: pointer;
+}
+.T3_Navbar-menu_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background: var(--color-footer);
+    padding:2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0,0,0,0.2);
+    }
+
+    
