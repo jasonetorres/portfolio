@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    margin-right: 5rem;
+    margin-right: 4rem;
 }
 .T3_Header_content h1 {
     font-family: var(--font-family);
@@ -69,6 +69,7 @@
     font-size: 16px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    margin-right: 1rem;
 }
 .T3_Header_content_people{
     width: 100%;

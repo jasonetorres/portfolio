@@ -29,8 +29,8 @@
 
 }
 .T3_Navbar-links-container p,
-.T3_Navbar-sign p, 
-.T3_Navbar-menu-container p {
+.T3_Navbar-menu-container p,
+.T3_Navbar-sign p {
     color: black;
     font-family: var(--font-family);
     font-weight: 500;
@@ -41,6 +41,7 @@
     cursor: pointer;
 
 }
+
 
 .T3_Navbar-sign button,
 .T3_Navbar-menu-container button {
@@ -56,6 +57,7 @@
     font-weight: 500;
     line-height: 25px;
     font-size: 16px;
+     margin-right: .5rem;
 }
 .T3_Navbar-menu {
     margin-left: 1rem;
@@ -96,7 +98,8 @@
       }
       .T3_Navbar-menu{
         display: flex;
-        color:antiquewhite;
+        color: whitesmoke;
+        margin-right: .5rem;
       }
     }
     @media screen and (max-width: 700px) {
@@ -109,6 +112,7 @@
       }
       .T3_Navbar-sign{
         display: none;
+    
       }
       .T3_Navbar-menu_container {
         top: 45px;
