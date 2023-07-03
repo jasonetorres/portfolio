@@ -61,7 +61,7 @@ const Navbar = () => {
               </div>
               <div className="T3_Navbar-menu_container-links-sign">
                 <p>Sign in</p>
-                <button type="button">Sign up</button>
+                <button className="button" type="button">Sign up</button>
               </div>
             </div>
           )}

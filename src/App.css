@@ -15,9 +15,9 @@ a {
     text-decoration: none;
 }
 .gradient__bg{
-      /* global 94%+ browsers support */
-      background: linear-gradient(275deg, rgba(3, 6, 6, 1) 18%, rgba(238, 130, 238, 1) 45%, rgba(235, 237, 237, 1) 59%);
-  }
+    /* global 92%+ browsers support */
+    background: radial-gradient(circle at 12% 0%, rgba(255, 255, 255, 1) 15%, rgba(248, 153, 3, 1) 21%, rgba(141, 164, 167, 1) 48%, rgba(183, 69, 183, 1) 76%);
+}
 .gradient_text {
     background: var(-- gradient-text);
     background-clip: text;
@@ -65,7 +65,7 @@ a {
         margin: 4 rem;
     }
   }
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 480px) {
     .section__padding {
         padding: 4 rem 2 rem;
     }
@@ -73,4 +73,3 @@ a {
         margin: 4 rem 2 rem;
     }
   }
-  
